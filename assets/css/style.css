@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* dau */
+.header {
+    width: 100%;
+    height:240px;
+    
+    
+}
+.top-header {
+    width: 100%;
+    height: 80px;
+    background-color:#4D7CF6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.top-header img {
+    width:1188px;
+    height:80px;
+ }
+ 
+ .menu-header {
+    width:100%;
+    height:40px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+ }
+ .menu-header ul{
+    display: flex;
+ }
+ .menu-header ul li {
+    list-style: none;
+    margin-left: 20px;
+    
+    border: 1px solid #4D7CF6;
+    
+ }
+ .menu-header ul li:hover{
+    color: #F57224;
+ }
+ .menu-header ul li a {
+    text-decoration: none;
+    font-size: 12px;
+ }
+
+ .botom-header {
+    width:100%;
+    height:118.4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .botom-header ul {
+    width:1188px;
+    height:118.4px;
+    display: flex;
+    
+    
+    align-items: center;
+ }
+ .botom-header ul li {
+    list-style: none;
+    margin-left: 30px;
+ }
+ .botom-header ul li img{
+    width: 127px;
+    height:40px;
+ }
+ .botom-header ul li input{
+    width:688px;
+    height:45px;
+ }
+ .icon-1 {
+    width:45px;
+    height:45px;
+    background-color:#F57224;
+    margin-left: 0 !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .icon-2 {
+    width:40px;
+    height:38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+ }
+ /* giua */
+
+ .box-menu{ 
+
+   text-align: center;
+   width:400px;
+   height:500px;
+   position: relative;
+   
+}
+.box-menu ul{ 
+  
+   list-style: none;
+   color: #0d0b0b;
+   border:1px solid #0d0b0b;
+   width:200px;
+}
+.box-menu ul li{ 
+   width: 170px;
+   margin: 5px;
+   padding: 15px;
+  
+   
+}
+
+.box-menu ul li a{ 
+   color: #0c0c0c;
+   text-decoration: none;
+}
+
+
+.box-menu .fa{ 
+   margin-right: 5px;
+}
+
+.box-submenu{
+    display: none;
+}
+.box-menu ul li:hover .box-submenu{
+   display: block;
+   position: absolute;
+   left: 200px;
+   top:0;
+}
+.box-menu ul li:hover .box-submenu ul{
+   display: block;
+   margin: 0px;padding: 0px;
+}
+.box-menu ul li:hover .box-submenu ul li{
+   width: 220px;
+   text-align: left;
+   border-bottom: dotted 1px #fff;
+   background: transparent;
+   border-radius: 0;
+   padding: 15px;
+   margin: 10px;
+}
+.box-menu ul li:hover .box-submenu ul li:last-child{
+   border-bottom: none;
+}
+.box-menu ul li:hover .box-submenu ul li a:hover{
+   color: yellowgreen;
+}
+.fa-angle-right{
+   float: right;
+}
+
+
+ 
